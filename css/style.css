@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header {
+    background: rgb(44, 44, 44);
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_link {
+    color: rgb(228, 228, 228);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 63px;
+}
+
+.burger {
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+.burger_line {
+    width: 100%;
+    height: 10px;
+    background: #34547A;
+    margin-bottom: 10px;
+}
+
+.hero-block {
+    background: rgb(44, 44, 44);
+}
+
+.container_hero-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 66px 0 67px;
+}
+
+.hero-block_title {
+    color: rgb(228, 228, 228);
+font-family: Fira Sans;
+font-size: 72px;
+font-weight: 400;
+line-height: 86px;
+letter-spacing: 0%;
+margin-bottom: 81px;
+}
+
+.hero-block_text {
+    color: rgb(228, 228, 228);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 81px;
+}
+
+.hero-block_link {
+    border-radius: 6px;
+box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+background: linear-gradient(135.00deg, rgb(226, 163, 0),rgb(226, 149, 0) 100%);
+color: rgb(0, 0, 0);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+padding: 13px 31px;
+}
+
+.about {
+    background: rgb(62, 62, 62);
+}
+
+.about_title {
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.container_about {
+    padding: 60px 0 99px;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_text {
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.video {
+    background:rgb(44, 44, 44);
+}
+
+.container_video {
+    padding: 65px 0 94px;
+}
+
+.video_title {
+    color: rgb(228, 228, 228);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.video_video {
+    width: 100%;
+    height: 561px;
+    border: 50px rgb(62, 62, 62) solid;
+    border-radius: 29px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background: rgb(44, 44, 44);
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 46px;
+}
+
+.footer_title {
+    color: rgb(228, 228, 228);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.footer_text {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer_list {
+    list-style: none;
+    display: flex;
+}
+
+.footer_item {
+    margin-right: 40px;
+}
+
+.gallery {
+    background: rgb(62, 62, 62);
+    padding: 65px 0 70px;
+}
+
+.gallery_title {
+    color: rgb(228, 228, 228);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.gallery_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.gallery_item {
+    width: 33%;
+    height: 356px;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 834px) {
+    .container {
+        max-width: 580px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .container_hero-block {
+        flex-direction: column;
+    }
+
+    .hero-block_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-block_title {
+        text-align: center;
+    }
+
+    .about_content {
+        flex-direction: column-reverse;
+    }
+
+    .video_video {
+        height: 337px;
+    }
+
+    .gallery_item {
+        width: 50%;
+    }
+}
